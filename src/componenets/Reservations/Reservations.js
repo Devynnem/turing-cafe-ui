@@ -4,6 +4,7 @@ import './Reservations.css'
 
 
 const Reservations = ({reservations}) => {
+  console.log(reservations)
   const reservationCards = reservations.map(reservation => {
     return (
       <Card 
